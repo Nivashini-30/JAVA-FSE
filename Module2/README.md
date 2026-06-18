@@ -1,5 +1,7 @@
 Outuput Will be:
+
 Linear Search Found: Shoes
+
 Binary Search Found: Shoes
 
 What is Big O Notation?

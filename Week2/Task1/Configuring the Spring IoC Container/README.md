@@ -2,11 +2,17 @@ Exercise5_SpringIoCContainer
 │
 ├── pom.xml
 │
+|
 └── src
+    |
     └── main
+        |
         ├── java
+        |   |
         │   └── com
+        |       |
         │       └── library
+        |           |
         │           ├── MainApp.java
         │           │
         │           ├── service

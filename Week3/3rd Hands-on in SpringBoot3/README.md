@@ -1,12 +1,12 @@
-Spring RESTful Web Services – Employee & Department Management (Exercise 3)
+### Spring RESTful Web Services – Employee & Department Management (Exercise 3)
 
-Project Objective
+### Project Objective
 
 This hands-on exercise demonstrates building a scalable, multi-tiered RESTful Web Service using Spring Boot. It implements a decoupled **Controller ➡️ Service ➡️ DAO (Data Access Object)** architecture to load static mock data components dynamically from external Spring XML configurations (`employee.xml` and `department.xml`) and stream them out as raw JSON payloads to client endpoints.
 
-Core Component Implementation
+### Core Component Implementation
 
-1. Spring XML Configuration Blueprints
+### 1. Spring XML Configuration Blueprints
 
 The system extracts object instantiations from external metadata files, injecting specific constructor properties to form base global collections:
 
@@ -14,7 +14,7 @@ src/main/resources/employee.xml`: Instantiates shared skill sets and multiple de
 
 src/main/resources/department.xml`: Instantiates independent enterprise groups into a unified `departmentList` array bean.
 
-2. Multi-Tier Spring Rest Architecture Codebase
+### 2. Multi-Tier Spring Rest Architecture Codebase
    
 Model Layer (`Employee`, `Department`, `Skill`): Plain Old Java Objects (POJOs) defining the data attributes and object relationships.
 

@@ -156,7 +156,7 @@ returns
 
 ---
 
-# ✨ Features
+# Features
 
 - Independent Spring Boot Microservice
 - RESTful API implementation

@@ -1,0 +1,16 @@
+/* Styling container layout card */
+.box {
+  width: 300px;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px; /* 10px top/bottom, 20px left/right */
+  border: 1px solid black;
+  border-radius: 10px;
+  vertical-align: top; /* Ensures boxes align evenly at the top */
+  box-sizing: border-box;
+}
+
+/* Tag selector style for HTML dt elements */
+.box dt {
+  font-weight: 500;
+}

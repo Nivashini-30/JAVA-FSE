@@ -33,7 +33,7 @@ The goal of this task is to create and structure core page components using the 
 ---
 
 ## Project Structure
-
+```text
 src/
 ├── app/
 │   ├── components/
